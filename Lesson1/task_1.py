@@ -29,4 +29,4 @@ elif one_hour <= duration < one_day:
     duration = duration % one_hour
     my_minute = duration // one_minute
     my_second = duration % one_minute
-    print ('{} час {} мин {} сек'.format(my_hour,my_minute,my_second));
+    print('{} час {} мин {} сек'.format(my_hour, my_minute, my_second));
